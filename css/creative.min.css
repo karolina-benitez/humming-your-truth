@@ -80,7 +80,7 @@ img::-moz-selection {
   transition: all 0.2s;
 }
 #mainNav .navbar-brand {
-  font-weight: 700;
+  font-size: 2rem;
   text-transform: uppercase;
   color: #0b2218;
   font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -158,6 +158,7 @@ header.masthead {
   background-image: url(../img/header.jpg);
   background-position: center center;
   background-size: cover;
+  /* opacity: 0.5; */
 }
 header.masthead hr {
   margin-top: 30px;
@@ -293,10 +294,13 @@ header.masthead p {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
-.headerrow {
+/* .headerrow {
   background-color: #0b2218c7;
   margin: 0;
-}
+} */
 .coachServices {
   list-style: none;
 }
+/* .headerrow h1 {
+  color: red;
+} */
