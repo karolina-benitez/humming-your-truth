@@ -112,7 +112,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: #0b2218c7;
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -208,7 +208,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: #0b2218c7;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -292,4 +292,11 @@ header.masthead p {
 .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+.headerrow {
+  background-color: #0b2218c7;
+  margin: 0;
+}
+.coachServices {
+  list-style: none;
 }
