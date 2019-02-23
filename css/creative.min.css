@@ -9,11 +9,11 @@ html {
   height: 100%;
 }
 body {
-  font-family: Merriweather, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Crimson Text", serif;
 }
 hr {
-  max-width: 50px;
-  border-width: 3px;
+  max-width: 30px;
+  border-width: 1px;
   border-color: #0b2218;
 }
 hr.light {
@@ -27,13 +27,13 @@ a {
 a:hover {
   color: #0b2218;
 }
-h1,
+p,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Crimson Text", serif;
 }
 .bg-primary {
   background-color: #0b2218 !important;
@@ -75,15 +75,15 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Crimson Text", serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 #mainNav .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   color: #0b2218;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Crimson Text", serif;
 }
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
@@ -155,17 +155,17 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url(../img/header.jpg);
+  /* background-image: url(../img/header.jpg);
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
   /* opacity: 0.5; */
 }
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-header.masthead h1 {
-  font-size: 2rem;
+header.masthead p {
+  font-size: 1rem;
 }
 header.masthead p {
   font-weight: 300;
@@ -182,13 +182,13 @@ header.masthead p {
     padding-top: 0;
     padding-bottom: 0;
   }
-  header.masthead h1 {
-    font-size: 3rem;
+  header.masthead p {
+    font-size: 1rem;
   }
 }
 @media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 4rem;
+  header.masthead p {
+    font-size: 1rem;
   }
 }
 .service-box {
@@ -230,7 +230,7 @@ header.masthead p {
   .portfolio-box-caption-content
   .project-name {
   padding: 0 15px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Crimson Text", serif;
 }
 .portfolio-box
   .portfolio-box-caption
@@ -274,7 +274,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Crimson Text", serif;
 }
 .btn-xl {
   padding: 1rem 2rem;
@@ -301,6 +301,6 @@ header.masthead p {
 .coachServices {
   list-style: none;
 }
-/* .headerrow h1 {
-  color: red;
-} */
+.headerrow {
+  color: black;
+}
