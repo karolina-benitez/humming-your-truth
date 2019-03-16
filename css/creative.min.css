@@ -306,6 +306,9 @@ header.masthead p {
 .text-justify{
   text-align: justify;
 }
-.img-fluid{
+.images{
   text-align:center;
+  width:100%;
+  display:block;
+  margin:auto;
 }
