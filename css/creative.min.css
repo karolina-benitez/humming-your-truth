@@ -38,17 +38,17 @@ h6 {
   font-family: "Crimson Text", serif;
 }
 .bg-primary {
-  background-color: #0b2218 !important;
+  background-color: #ffff32 !important;
 }
 .bg-dark {
   background-color: #212529 !important;
 }
-.text-faded {
+/* .text-faded {
   color: rgba(255, 255, 255, 0.7);
-}
-section {
+} */
+/* section {
   padding: 8rem 0;
-}
+} */
 .section-heading {
   margin: 24px;
 }
@@ -313,7 +313,7 @@ header.masthead p {
   margin:auto;
 }
 .section-padding{
-  padding: 48px
+  padding: 12px
 }
 .justify{
   text-align: justify;
@@ -336,6 +336,9 @@ header.masthead {
   background-size: cover;
 }
 .carousel {
-  width: 75%;
+  width: 50%;
   margin: auto;
+}
+#beautifulAdventures {
+  padding-top: 48px;
 }
