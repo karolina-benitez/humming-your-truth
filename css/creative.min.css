@@ -278,7 +278,6 @@ header.masthead p {
   /* text-transform: uppercase; */
   border: none;
   border-radius: 300px;
-  
 }
 .btn-xl {
   padding: 1rem 2rem;
@@ -315,4 +314,28 @@ header.masthead p {
 }
 .section-padding{
   padding: 48px
+}
+.justify{
+  text-align: justify;
+}
+.quote {
+  color: white;
+  margin-top: 30rem;
+}
+.quote span{
+  background-color: black;
+}
+.mainLogo {
+   font-size: 2.5rem;
+}
+header.masthead {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.carousel {
+  width: 75%;
+  margin: auto;
 }
