@@ -38,7 +38,7 @@ h6 {
   font-family: "Crimson Text", serif;
 }
 .bg-primary {
-  background-color: #ffff32 !important;
+  background-color: #ffe500 !important;
 }
 .bg-dark {
   background-color: #212529 !important;
@@ -341,4 +341,7 @@ header.masthead {
 }
 #beautifulAdventures {
   padding-top: 48px;
+}
+.calendly {
+  padding-top: 5rem;
 }
