@@ -53,6 +53,17 @@ h6 {
 .section-heading {
   margin: 24px;
 }
+.carousel {
+  width: 100%;
+  margin: auto;
+}
+.photo{
+  text-align:center;
+  width:50%;
+  display:block;
+  margin:auto;
+  padding-bottom: 3rem;
+}
 ::-moz-selection {
   color: #fff;
   background: #212529;
@@ -154,6 +165,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
     color: #0b2218;
   }
+  
 }
 header.masthead {
   padding-top: 10rem;
@@ -178,6 +190,13 @@ header.masthead p {
 @media (min-width: 768px) {
   header.masthead p {
     font-size: 16px;
+  }
+  .carousel {
+    width: 50%;
+    margin: auto;
+  }
+  .photo{
+    width:100%;;
   }
 }
 @media (min-width: 992px) {
@@ -313,13 +332,7 @@ header.masthead p {
   display:block;
   margin:auto;
 }
-.photo{
-  text-align:center;
-  width:50%;
-  display:block;
-  margin:auto;
-  padding-bottom: 3rem;
-}
+
 .section-padding{
   padding: 12px
 }
@@ -343,11 +356,12 @@ header.masthead {
   background-image: url("../img/header4.JPEG");
   background-position: center center;
   background-size: cover;
+  /* position: relative; */
 }
-.carousel {
-  width: 50%;
-  margin: auto;
-}
+/* .container {
+  position: absolute;
+} */
+
 #beautifulAdventures {
   margin-top: 4rem;
 }
