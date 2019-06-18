@@ -68,7 +68,7 @@ h6 {
   list-style: none;
 }
 .text-justify{
-  text-align: justify;
+  /* text-align: justify; */
 }
 .images{
   text-align:center;
@@ -116,6 +116,9 @@ header.masthead {
 }
 .text-faded {
   color: white;
+}
+footer {
+  padding-bottom: 2rem;
 }
 ::-moz-selection {
   color: #fff;
