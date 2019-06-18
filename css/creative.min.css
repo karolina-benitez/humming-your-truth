@@ -67,9 +67,6 @@ h6 {
 .coachServices {
   list-style: none;
 }
-.headerrow {
-  color: black;
-}
 .text-justify{
   text-align: justify;
 }
@@ -94,11 +91,12 @@ h6 {
 }
 .quote {
   color: white;
-  margin-top: 30rem;
+  margin-top: 15rem;
+  /* position: absolute; */
 }
-/* .quote span{
-  background-color: black;
-} */
+.title h1 {
+  font-size: 2rem;
+}
 .mainLogo {
    font-size: 2.5rem;
    color: black;
@@ -106,15 +104,10 @@ h6 {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header4.JPEG");
+  background-image: url("../img/header-mobile.png");
   background-position: center center;
   background-size: cover;
-  /* position: relative; */
 }
-/* .container {
-  position: absolute;
-} */
-
 #beautifulAdventures {
   margin-top: 4rem;
 }
@@ -123,9 +116,6 @@ header.masthead {
 }
 .text-faded {
   color: white;
-}
-.title {
-  font-size: 5rem;
 }
 ::-moz-selection {
   color: #fff;
@@ -183,62 +173,10 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
 }
-@media (min-width: 992px) {
-  #mainNav {
-    border-color: transparent;
-    /* background-color: #0b2218c7; */
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: transparent;
-    color: white;
-  }
-  #mainNav .navbar-brand {
-    color: black;
-  }
-  #mainNav .navbar-brand:focus,
-  #mainNav .navbar-brand:hover {
-    color: #fff;
-  }
-  #mainNav .navbar-nav > li.nav-item > a.nav-link {
-    padding: 0.5rem 1rem;
-  }
-  /* #mainNav .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7); 
-  } */
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
-    background-color: rgb(215, 214, 214);
-  }
-  #mainNav.navbar-shrink {
-    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: white;
-  }
-  #mainNav.navbar-shrink .navbar-brand {
-    color: #0b2218;
-  }
-  #mainNav.navbar-shrink .navbar-brand:focus,
-  #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #0b2218;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
-  }
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
-  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
-    color: #0b2218;
-  }
-  
-}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  /* background-image: url(../img/header.jpg);
-  background-position: center center;
-  background-size: cover;
-  -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 
-  filter: grayscale(100%);
-  opacity: 0.5; */
 }
 header.masthead hr {
   margin-top: 30px;
@@ -249,31 +187,6 @@ header.masthead p {
 }
 header.masthead p {
   font-weight: 300;
-}
-@media (min-width: 768px) {
-  header.masthead p {
-    font-size: 16px;
-  }
-  .carousel {
-    width: 50%;
-    margin: auto;
-  }
-}
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead p {
-    font-size: 16px;
-  }
-}
-@media (min-width: 1200px) {
-  header.masthead p {
-    font-size: 16px;
-  }
 }
 .service-box {
   max-width: 400px;
@@ -336,20 +249,6 @@ header.masthead p {
 .portfolio-box:focus {
   outline: 0;
 }
-@media (min-width: 768px) {
-  .portfolio-box
-    .portfolio-box-caption
-    .portfolio-box-caption-content
-    .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box
-    .portfolio-box-caption
-    .portfolio-box-caption-content
-    .project-name {
-    font-size: 24px;
-  }
-}
 .text-primary {
   color: #0b2218 !important;
 }
@@ -376,4 +275,102 @@ header.masthead p {
 .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    /* background-color: #0b2218c7; */
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: transparent;
+    color: white;
+  }
+  #mainNav .navbar-brand {
+    color: black;
+  }
+  #mainNav .navbar-brand:focus,
+  #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  /* #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7); 
+  } */
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover {
+    background-color: rgb(215, 214, 214);
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: white;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    color: #0b2218;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus,
+  #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #0b2218;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: #0b2218;
+  }
+}
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 16px;
+  }
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/header4.JPEG");
+    background-position: center center;
+    background-size: cover;
+  }
+  .title {
+    font-size: 4rem;
+  }
+  .carousel {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead p {
+    font-size: 16px;
+  }
+  .title h1 {
+    font-size: 6rem;
+  }
+}
+@media (min-width: 1200px) {
+  header.masthead p {
+    font-size: 16px;
+  }
+}
+@media (min-width: 768px) {
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box
+    .portfolio-box-caption
+    .portfolio-box-caption-content
+    .project-name {
+    font-size: 24px;
+  }
 }
