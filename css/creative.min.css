@@ -104,7 +104,7 @@ h6 {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header-mobile.png");
+  background-image: url("../img/websiteHeader.png");
   background-position: center center;
   background-size: cover;
 }
@@ -332,7 +332,7 @@ header.masthead p {
   header.masthead {
     padding-top: 10rem;
     padding-bottom: calc(10rem - 56px);
-    background-image: url("../img/header4.JPEG");
+    background-image: url("../img/websiteHeader.png");
     background-position: center center;
     background-size: cover;
   }
@@ -376,4 +376,11 @@ header.masthead p {
     .project-name {
     font-size: 24px;
   }
+}
+.listStyling {
+  list-style-position: outside;
+  text-align: left;
+}
+.listStyling li{
+  /*text-align: center*/
 }
