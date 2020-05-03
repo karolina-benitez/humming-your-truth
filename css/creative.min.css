@@ -124,7 +124,7 @@ header.masthead {
   color: white;
 }
 footer {
-  /* padding-bottom: 1rem; */
+  padding-bottom: 1rem;
 }
 ::-moz-selection {
   color: #fff;
