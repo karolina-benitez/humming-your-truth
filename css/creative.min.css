@@ -124,7 +124,7 @@ header.masthead {
   color: white;
 }
 footer {
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 }
 ::-moz-selection {
   color: #fff;
@@ -150,6 +150,7 @@ img::-moz-selection {
 }
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
   background-color: #fff;
   font-family: "Crimson Text", serif;
   -webkit-transition: all 0.2s;
@@ -451,4 +452,7 @@ div {
 .gridContent4 {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
+}
+.topPadding{
+  padding-top: 3rem;
 }
