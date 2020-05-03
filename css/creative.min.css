@@ -13,6 +13,7 @@ html {
 }
 body {
   font-family: "Crimson Text", serif;
+  width: 100%;
 }
 hr {
   max-width: 30px;
@@ -98,15 +99,17 @@ h6 {
   font-size: 2rem;
 }
 .mainLogo {
-   font-size: 2.5rem;
+   font-size: 1.5rem;
    color: black;
 }
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/websiteHeader.png");
-  background-position: center center;
+  /* padding-top: 10rem; */
+  /* padding-bottom: calc(10rem - 56px); */
+  background-image: url("../img/websiteHeaderMobile.png");
   background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* background-size: auto; */
 }
 #beautifulAdventures {
   margin-top: 4rem;
@@ -171,14 +174,14 @@ img::-moz-selection {
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
   color: #0b2218 !important;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
-header.masthead {
+/* header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
 }
@@ -191,7 +194,7 @@ header.masthead p {
 }
 header.masthead p {
   font-weight: 300;
-}
+} */
 .service-box {
   max-width: 400px;
 }
@@ -285,7 +288,7 @@ header.masthead p {
     border-color: transparent;
     /* background-color: #0b2218c7; */
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: transparent;
+    /* background-color: transparent; */
     color: white;
   }
 /*  #mainNav .navbar-brand {
@@ -358,6 +361,16 @@ header.masthead p {
   .title h1 {
     font-size: 6rem;
   }
+  .gridContainer {
+  display: grid;
+  }
+  .gridContent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .margin {
+    margin: 3rem;
+  }
 }
 @media (min-width: 1200px) {
   header.masthead p {
@@ -377,6 +390,14 @@ header.masthead p {
     .project-name {
     font-size: 24px;
   }
+  .mobileOnly{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .desktopOnly{
+    display: none;
+  }
 }
 .listStyling {
   list-style-position: outside;
@@ -390,4 +411,33 @@ a.icon{
   }
 #keepUpToDate h4 {
   margin: 2rem 0;
+}
+#mainNav {
+  background-color: white;
+}
+
+.buttonStyle {
+  background-color: #A3B899;
+  color: white;
+  text-decoration: none;
+  max-height: 4rem;
+}
+.buttonStyle:hover {
+  background-color: rgb(124, 141, 116);
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+div {
+  border: 2px solid blue;
+  width: 100%;
+}
+.margin {
+  margin: 1rem 0;
+  border: 2px solid red;
+}
+.padding {
+  padding: 1rem;
 }
