@@ -102,6 +102,9 @@ h6 {
    font-size: 1.5rem;
    color: black;
 }
+.navbar>.container, .navbar>.container-fluid {
+  justify-content: flex-start;
+}
 header.masthead {
   /* padding-top: 10rem; */
   /* padding-bottom: calc(10rem - 56px); */
@@ -121,7 +124,7 @@ header.masthead {
   color: white;
 }
 footer {
-  padding-bottom: 2rem;
+  /* padding-bottom: 1rem; */
 }
 ::-moz-selection {
   color: #fff;
@@ -377,7 +380,7 @@ header.masthead p {
     font-size: 16px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) { /* DESKTOP ONLY */
   .portfolio-box
     .portfolio-box-caption
     .portfolio-box-caption-content
@@ -393,11 +396,17 @@ header.masthead p {
   .mobileOnly{
     display: none;
   }
+  footer {
+    padding-bottom: 2rem;
+  }
 }
 @media (max-width: 767px) {
   .desktopOnly{
     display: none;
   }
+  .mainLogo {
+    margin-left: 1.5rem;
+}
 }
 .listStyling {
   list-style-position: outside;
@@ -431,12 +440,10 @@ a:link {
   text-decoration: none;
 }
 div {
-  border: 2px solid blue;
   width: 100%;
 }
 .margin {
   margin: 1rem 0;
-  border: 2px solid red;
 }
 .padding {
   padding: 1rem;
