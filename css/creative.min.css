@@ -448,3 +448,7 @@ div {
 .padding {
   padding: 1rem;
 }
+.gridContent4 {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
