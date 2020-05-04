@@ -70,7 +70,7 @@ h6 {
 }
 .images{
   text-align:center;
-  width:100%;
+  width:99%;
   display:block;
   margin:auto;
 }
@@ -145,6 +145,9 @@ img::-moz-selection {
   color: #fff;
   background: 0 0;
 }
+.gridContainer {
+  display: grid;
+  }
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 5px 0 rgba(0, 0, 0, 0.19);
@@ -367,7 +370,7 @@ header.masthead p {
   }
   .gridContent {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 49% 49%;
   }
   .margin {
     margin: 3rem;
@@ -397,6 +400,18 @@ header.masthead p {
   footer {
     padding-bottom: 2rem;
   }
+  .socMedia{
+    width: 50%;
+    margin: auto;
+  }
+  .contentWidth{
+    width: 75%;
+    margin: auto;
+  }
+  .gridContent2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
 }
 @media (max-width: 767px) {
   .desktopOnly{
@@ -404,14 +419,11 @@ header.masthead p {
   }
   .mainLogo {
     margin-left: 1.5rem;
-}
+  }
 }
 .listStyling {
   list-style-position: outside;
   text-align: left;
-}
-.listStyling li{
-  /*text-align: center*/
 }
 a.icon{
     margin: 2rem;
@@ -433,7 +445,6 @@ a.icon{
   background-color: rgb(124, 141, 116);
   text-decoration: none;
 }
-
 a:link {
   text-decoration: none;
 }
